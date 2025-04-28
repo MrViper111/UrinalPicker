@@ -31,9 +31,11 @@ def pick_urinal(urinals: list[int]):
 
     return best_urinal
 
+# Enjoy some example code
 def fill_urinals(urinals):
     while not all(urinals):
         urinal = pick_urinal(urinals)
+        
         if urinal == -1:
             break
 
